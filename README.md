@@ -1,6 +1,8 @@
 # ASR 实时录音 · 语音转文字
 
 前端实时录音，通过 WebSocket 将 PCM 流推送到后端，后端使用阿里云 NLS 进行流式语音识别，边说边出中间结果，停止后返回最终文本。
+## 实现效果预览
+![asr](https://github.com/user-attachments/assets/fb052910-8490-4e38-be5c-7ffbec9bfb8c)
 
 ## 技术栈
 
