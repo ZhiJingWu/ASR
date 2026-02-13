@@ -29,12 +29,9 @@
 | `ALIYUN_AK_ID` | 阿里云 AccessKey ID |
 | `ALIYUN_AK_SECRET` | 阿里云 AccessKey Secret |
 | `NLS_APP_KEY` | 语音识别应用 AppKey（在控制台创建项目后获得） |
+| `NLS_GATEWAY_URL` | NLS WebSocket 网关地址,默认值:wss://nls-gateway-cn-shanghai.aliyuncs.com/ws/v1 |
 
-可选：
-
-| 变量名 | 说明 | 默认值 |
-|--------|------|--------|
-| `NLS_GATEWAY_URL` | NLS WebSocket 网关地址 | `wss://nls-gateway-cn-shanghai.aliyuncs.com/ws/v1` |
+获取参考地址: https://help.aliyun.com/zh/isi/getting-started/start-here?spm=5176.12061031.J_5253785160.4.52f96822nKnpWs
 
 ## 快速运行
 
