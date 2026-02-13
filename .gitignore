@@ -1,0 +1,49 @@
+# ========== 后端 Maven / Java ==========
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.class
+backend/.mvn/wrapper/maven-wrapper.jar
+*.log
+*.iml
+
+# ========== 前端 Node / Vite ==========
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ========== IDE ==========
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# ========== 操作系统 ==========
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# ========== 敏感与本地配置 ==========
+.env
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ========== 其他 ==========
+*.log
+*.tmp
+*.temp
+.cache/
